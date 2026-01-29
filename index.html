@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Devanshi Kapadiya — Python Developer portfolio. Projects in web apps, data analysis, and automation." />
+    <title>Devanshi Kapadiya — Python Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="brand" href="#top" aria-label="Go to top">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14 2.25c6.49 0 11.75 5.26 11.75 11.75S20.49 25.75 14 25.75 2.25 20.49 2.25 14 7.51 2.25 14 2.25Z"
+                            stroke="currentColor" stroke-width="2" opacity="0.35" />
+                        <path
+                            d="M8.75 16.25c.9 2.28 3.12 3.9 5.75 3.9 3.42 0 6.19-2.77 6.19-6.19 0-3.42-2.77-6.19-6.19-6.19-2.63 0-4.85 1.62-5.75 3.9"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </span>
+                <span class="brand-text">Devanshi</span>
+            </a>
+
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Open menu</span>
+                    <span class="nav-toggle-icon" aria-hidden="true"></span>
+                </button>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                    <button class="theme-toggle" type="button" aria-pressed="false" title="Toggle theme">
+                        <span class="theme-icon" aria-hidden="true"></span>
+                        <span class="theme-label">Theme</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="hero-bg" aria-hidden="true">
+                <svg class="hero-grid" viewBox="0 0 1200 700" preserveAspectRatio="none">
+                    <defs>
+                        <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+                            <path d="M 42 0 L 0 0 0 42" fill="none" stroke="currentColor" stroke-opacity="0.18" />
+                        </pattern>
+                        <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+                            <stop offset="0%" stop-color="currentColor" stop-opacity="0.22" />
+                            <stop offset="45%" stop-color="currentColor" stop-opacity="0.08" />
+                            <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+                        </radialGradient>
+                    </defs>
+                    <rect width="1200" height="700" fill="url(#grid)" />
+                    <rect width="1200" height="700" fill="url(#glow)" />
+                </svg>
+            </div>
+
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow">Python Developer • Data Analytics • AI/ML</p>
+                    <h1>
+                        Hi, I’m <span class="grad">Devanshi Kapadiya</span> — I build Python projects that turn data
+                        into decisions.
+                    </h1>
+                    <p class="lead">
+                        Quick learner with strong analytical and problem‑solving skills. Actively seeking an
+                        internship to apply Python, SQL, Data Analytics and AI/ML.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn primary" href="#projects">View projects</a>
+                        <a class="btn ghost" href="#contact">Contact</a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <a class="meta-chip" href="mailto:kapadiyadevanshi2@gmail.com">
+                            <span class="chip-icon" aria-hidden="true">✉</span>
+                            kapadiyadevanshi2@gmail.com
+                        </a>
+                        <a class="meta-chip" href="tel:+919925248318">
+                            <span class="chip-icon" aria-hidden="true">☎</span>
+                            +91 99252 48318
+                        </a>
+                        <span class="meta-chip subtle">
+                            <span class="chip-icon" aria-hidden="true">📍</span>
+                            India
+                        </span>
+                    </div>
+                </div>
+
+                <aside class="hero-card" aria-label="Highlights">
+                    <div class="card">
+                        <div class="card-top">
+                            <div class="avatar" aria-hidden="true">
+                                <svg viewBox="0 0 64 64" width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+                                            <stop offset="0" stop-color="currentColor" stop-opacity="0.85" />
+                                            <stop offset="1" stop-color="currentColor" stop-opacity="0.35" />
+                                        </linearGradient>
+                                    </defs>
+                                    <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#a)" />
+                                    <path d="M20 43c3-7 21-7 24 0" stroke="white" stroke-opacity="0.95" stroke-width="4"
+                                        stroke-linecap="round" />
+                                    <path d="M32 18c6 0 9 5 9 10s-3 10-9 10-9-5-9-10 3-10 9-10Z" fill="white"
+                                        fill-opacity="0.9" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h2 class="card-title">What I bring</h2>
+                                <p class="card-sub">Python + data + automation</p>
+                            </div>
+                        </div>
+
+                        <ul class="checklist">
+                            <li>Data scraping & cleaning (BeautifulSoup, Pandas, NumPy)</li>
+                            <li>Dashboards & insights (Matplotlib, charts)</li>
+                            <li>Automation & assistants (voice assistant features)</li>
+                            <li>SQL & databases (MySQL, SQLite)</li>
+                        </ul>
+
+                        <div class="card-actions">
+                            <a class="btn small" href="#skills">Skills</a>
+                            <a class="btn small ghost" href="#experience">Education</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container two-col">
+                <div>
+                    <h2>About</h2>
+                    <p class="muted">
+                        I’m a Python developer with interests in Data Science, Data Analytics, and AI/ML. I’m
+                        comfortable learning new tools quickly and enjoy building practical projects—from web
+                        apps to scraping pipelines and dashboards.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-num">3+</div>
+                            <div class="stat-label">Major projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num">8.17</div>
+                            <div class="stat-label">SGPA (1st year)</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num">7.84</div>
+                            <div class="stat-label">SGPA (2nd year)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <h3 class="panel-title">Quick info</h3>
+                    <dl class="dl">
+                        <div>
+                            <dt>Role</dt>
+                            <dd>Python Developer</dd>
+                        </div>
+                        <div>
+                            <dt>Focus</dt>
+                            <dd>Data Analytics, Automation, AI/ML</dd>
+                        </div>
+                        <div>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:kapadiyadevanshi2@gmail.com">kapadiyadevanshi2@gmail.com</a></dd>
+                        </div>
+                        <div>
+                            <dt>Phone</dt>
+                            <dd><a href="tel:+919925248318">+91 99252 48318</a></dd>
+                        </div>
+                        <div>
+                            <dt>LinkedIn</dt>
+                            <dd><a href="https://www.linkedin.com/in/devanshi-kapadiya-6a7939359/">Devanshi Kapadiya</a>
+                            </dd>
+
+                        </div>
+                        <div>
+                            <dt>GitHub</dt>
+                            <dd><a href="https://github.com/kapadiya-devanshi">kapadiya-devanshi</a></dd>
+                        </div>
+                    </dl>
+                    <p class="tiny muted">
+                        Tip: I left LinkedIn/GitHub as placeholders—send your URLs and I’ll wire them in.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Technical skills</h2>
+                    <p class="muted">Tools I’ve used across projects and coursework.</p>
+                </div>
+
+                <div class="grid cards">
+                    <article class="skill-card">
+                        <h3>Languages</h3>
+                        <ul class="tags">
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>C (DS)</li>
+                            <li>C#</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Libraries / Frameworks</h3>
+                        <ul class="tags">
+                            <li>Pandas</li>
+                            <li>NumPy</li>
+                            <li>BeautifulSoup</li>
+                            <li>ScrapyMini</li>
+                            <li>Matplotlib</li>
+                            <li>Flask</li>
+                            <li>TensorFlow</li>
+                            <li>NLTK</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Databases</h3>
+                        <ul class="tags">
+                            <li>MySQL</li>
+                            <li>SQLite</li>
+                            <li>Django (basic)</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Web / Tools</h3>
+                        <ul class="tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>ASP.NET</li>
+                            <li>Jupyter Notebook</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Projects</h2>
+                    <p class="muted">
+                        A few portfolio highlights. Click a project to see details.
+                    </p>
+                </div>
+
+                <div class="grid projects">
+                    <button class="project" type="button" data-project="soulmate">
+                        <div class="project-top">
+                            <span class="badge">Final Year</span>
+                            <span class="pill">Mental Health Chatbot</span>
+                        </div>
+                        <h3>SoulMate — Mental-Health Chatbot (Web)</h3>
+                        <p class="muted">
+                            Web-based mental health chatbot for guided conversations, tests, mindfulness, and SOS
+                            support.
+                        </p>
+                        <div class="project-footer">
+                            <span class="linkish">View details</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                    </button>
+
+                    <button class="project" type="button" data-project="restaurant">
+                        <div class="project-top">
+                            <span class="badge">Web App</span>
+                            <span class="pill">Frontend + Backend</span>
+                        </div>
+                        <h3>Restaurant App</h3>
+                        <p class="muted">
+                            Static web app for browsing menus, placing orders, and adding reviews.
+                        </p>
+                        <div class="project-footer">
+                            <span class="linkish">View details</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                    </button>
+
+                    <button class="project" type="button" data-project="assistant">
+                        <div class="project-top">
+                            <span class="badge">Automation</span>
+                            <span class="pill">Python</span>
+                        </div>
+                        <h3>My_AI Voice Assistant</h3>
+                        <p class="muted">
+                            Voice assistant to automate daily tasks: apps, web, weather, Wikipedia, YouTube, news.
+                        </p>
+                        <div class="project-footer">
+                            <span class="linkish">View details</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                    </button>
+
+                    <button class="project" type="button" data-project="zomato">
+                        <div class="project-top">
+                            <span class="badge">Data</span>
+                            <span class="pill">Scraping + Viz</span>
+                        </div>
+                        <h3>Zomato Data Analysis (Python)</h3>
+                        <p class="muted">
+                            Scraped restaurant data and built charts/heatmaps/boxplots for insights.
+                        </p>
+                        <div class="project-footer">
+                            <span class="linkish">View details</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                    </button>
+
+                    <button class="project" type="button" data-project="hospital">
+                        <div class="project-top">
+                            <span class="badge">Full Stack</span>
+                            <span class="pill">ASP.NET</span>
+                        </div>
+                        <h3>Hospital Management System</h3>
+                        <p class="muted">
+                            Managed bookings, patients, doctors, clinics, treatments, and recent activity.
+                        </p>
+                        <div class="project-footer">
+                            <span class="linkish">View details</span>
+                            <span class="arrow" aria-hidden="true">→</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container two-col">
+                <div>
+                    <h2>Education</h2>
+                    <div class="timeline">
+                        <div class="t-item">
+                            <div class="t-dot" aria-hidden="true"></div>
+                            <div class="t-body">
+                                <h3>BSc.IT — Noble University</h3>
+                                <p class="muted">3rd Year (currently studying)</p>
+                                <ul class="bullets">
+                                    <li>1st Year SGPA: <strong>8.17</strong> (2024)</li>
+                                    <li>2nd Year SGPA: <strong>7.84</strong> (2025)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Experience</h2>
+                    <div class="panel">
+                        <h3 class="panel-title">Currently</h3>
+                        <p class="muted">
+                            Learning skills and actively seeking an internship for practical experience.
+                        </p>
+                        <div class="callout">
+                            <p class="muted">
+                                If you want, I can add a “Services / What I can do” section tailored for internships
+                                (data cleaning, scraping, dashboards, automation scripts).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container contact">
+                <div class="section-head">
+                    <h2>Contact</h2>
+                    <p class="muted">
+                        Want to collaborate or offer an internship? Send a message—I'll reply quickly.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="panel">
+                        <h3 class="panel-title">Reach me</h3>
+                        <div class="contact-cards">
+                            <a class="contact-card" href="mailto:kapadiyadevanshi2@gmail.com">
+                                <span class="cc-icon" aria-hidden="true">✉</span>
+                                <span>
+                                    <span class="cc-title">Email</span>
+                                    <span class="cc-sub">kapadiyadevanshi2@gmail.com</span>
+                                </span>
+                            </a>
+                            <a class="contact-card" href="tel:+919925248318">
+                                <span class="cc-icon" aria-hidden="true">☎</span>
+                                <span>
+                                    <span class="cc-title">Phone</span>
+                                    <span class="cc-sub">+91 99252 48318</span>
+                                </span>
+                            </a>
+                            <a class="contact-card" href="tel:+919925248318">
+                                <span class="cc-icon" aria-hidden="true"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDUlEQVR4nO2YO0sDQRDHVyxsxUqwVVs/gZWdGiz9EqI5xdwWYqEE7FJY2FlYWlvYxIjmiagkuxGNwSKFEsTEPIzvjOyteWhynHfC3R7sH4bjdpa5+e3MLsciJCUlJSW21PQMUukhwrSKMAWbrIowDSGVeP6XPCYbNiYNOua3vvLOJw/cyLQFAK1tBEieAlLpgQUAUhGoAmXzAHrBfElAShzQQoQ/2bsdEKalk/zoegKOrotQff2A42wRRtYS9kCYVrcgSlxLul2HmSKvhCsAFiLayrer8vLB28kVAIrbK+Dje4BBsEqEMgUYdtUewG4/hbwxQPPhTmPjRn41BWjppDXH+70Ay2fsnLcJYP4YuomNG/mHVuIQOMhB+rYKz2+f8Fh711pxbvcK+pZixpV0EmDMn4B8+RX0dJorw+BKnFdJRIDsfQ2MFMoUoEeJignwV01upfRbyUmAz3pd6/+JzSTMbqcheFnoOm8nccc3umgAq3s3PDHW474k9C7GYP/ioWPeVf6pdaKJBDCAoz+PSl8SxgPnHfNKz+/6vyVOAdTrbf6mEehXYzpzw2IBcH/YfCwsAagEaEgCYAlAJQCSAGbVLYg3yj/w29j4X/xmYuH/Aoh0taiSknkAdj/vdOK4YSRopQIecSqQmjIPwKvgdzx5TNetJd+EINPa/byde0Jl3yJB6ysvJSUlhWzSF9z1VFjYNi3YAAAAAElFTkSuQmCC"
+                                        alt="linkedin"></span>
+                                <span>
+                                    <span class="cc-title">LinkedIn</span>
+                                    <span class="cc-sub">https://www.linkedin.com/in/devanshi-kapadiya-6a7939359/</span>
+                                </span>
+                            </a>
+                            <a class="contact-card" href="tel:+919925248318">
+                                <span class="cc-icon" aria-hidden="true"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADXklEQVR4nO2aS2xNQRjHf1WPtokiHtVQGolY0JVHiI0o8QptFxIW3QiVkIoNQTwrIkiVELpAxEKwZCdl6xGJXVVJSLw2bRCL3mqvK5N8TW5O7jnfue6Zc25lfskkTe/M/f9n7pxvZr454HA4HA6Hw+FwxEUZUAesARqkmL8XyWf/HROAJqAT6AHSQManpKXOdaARGM8opgboAPoDOqwV0/YiMJtRxCTgMjBYQMe9ZVAGopIiZx3wNcKOe8sXYC1FSAnQpjzfURWjcUI0i4JS4FYMHfeWG6KdKCViJJNQuZP0TGhLsPMj5XiSAS+dw9BdoB44KGt6oR18AxyQ77znExPMRipWKgOi/YqsemZ6bgc+eur0Ad3Acynd8r/sOqbNNs8UX+mj+RmYGOcAXAr4xWblqF8O7AO2AlUB31sldVp9tsU1AbrtxESNssmZZlF7eoBuymfwY/31M8B8i9oLFO32OA42/YqJ9Rb1NyrafbYPUE2KgSFgiUX9paIR5GGLRX06FXFzYLFNh+Lhmk3xngDhtARI28xVzhxmSbVCuSLcRXw8DfAxLLEqcuqUqXeK+DiteFloQ7ReEd1JfLQoXlbZEG1QRJuJj+YkVoJNiuge4qNV8bLBhugyRfQs8XFO8WL2C5EzTxF9THx0KV5qbYhWyBLjJ2oOSFOwz1TlMDYkS7YVXikjfwj7HFE8vLQp3q6IfwfmWNQ3U/uH4uGCRX02K+IZmSWTLWibx+t1CH2zWlljPPAthIm3wPIIdU2arTfkxck4LHPSI9oiqawdnrzekKTMFxegZZazm0rwjT1DXO2JwuZgMkM+M3vwXzmMfQLuSwDTOAo8kDaZPEpKyTdGyhmP+IesrKzZpv7xMbkrxHfvzrPjI8XcUcRGOfDeY+B81ud7c6zVqZDrc4XUzafzvUm8XFHvyQ+kZLdI1uNgXnR4JNfl+ezPu/PovIkPq0mI/R4zDyO6q3uRxwCY+4ZEueIxdDuCW5qwA2Dyg4lTClz1GPsp93gmMB0Wo2b5jHIAzGM1hiKiRUlZP4toAIaLYdoHBcZ3PsbNJWihA9CbZMALS5lM94ECssZPPG0H5LWYUfUeYbVsTc3V9W/JKYalUdqYtseAmYxixv5jhqZW2jocDofD4XA4HA4i5y9GNvqaZdriqQAAAABJRU5ErkJggg=="
+                                        alt="github"></span>
+                                <span>
+                                    <span class="cc-title">GitHub</span>
+                                    <span class="cc-sub">https://github.com/kapadiya-devanshi</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="form panel" id="contact-form" autocomplete="on">
+                        <h3 class="panel-title">Send a message</h3>
+                        <label>
+                            <span>Name</span>
+                            <input name="name" required placeholder="Your name" />
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input name="email" type="email" required placeholder="you@example.com" />
+                        </label>
+                        <label>
+                            <span>Message</span>
+                            <textarea name="message" rows="4" required placeholder="Write your message..."></textarea>
+                        </label>
+                        <button class="btn primary" type="submit">Generate email</button>
+                        <p class="tiny muted" id="form-hint">
+                            This form opens your email app with a prefilled message (no backend needed).
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container footer-inner">
+                <p class="muted tiny">© <span id="year"></span> Devanshi Kapadiya. Built with HTML/CSS/JS.</p>
+                <a class="tiny" href="#top">Back to top</a>
+            </div>
+        </footer>
+    </main>
+
+    <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card" role="document" aria-label="Project details">
+            <div class="modal-head">
+                <div>
+                    <div class="modal-kicker" id="modal-kicker">Project</div>
+                    <h3 class="modal-title" id="modal-title">Title</h3>
+                </div>
+                <button class="icon-btn" type="button" data-close aria-label="Close">
+                    <span aria-hidden="true">✕</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="muted" id="modal-desc"></p>
+                <div class="modal-section">
+                    <h4>Highlights</h4>
+                    <ul class="bullets" id="modal-bullets"></ul>
+                </div>
+                <div class="modal-section">
+                    <h4>Tech</h4>
+                    <ul class="tags" id="modal-tags"></ul>
+                </div>
+                <div class="modal-actions">
+                    <a class="btn ghost" id="modal-link" href="#" target="_blank" rel="noreferrer">Add repo link</a>
+                    <button class="btn" type="button" data-close>Close</button>
+                </div>
+                <p class="tiny muted">
+                    You can connect each project to a GitHub repo later—send me the links and I’ll update it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
